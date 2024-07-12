@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Website - Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #629faa;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .logo {
+            max-width: 150px;
+        }
+        main {
+            max-width: 1150px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #beebf3;
+            
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 5px;
+        }
+        .news-item {
+            border: 1px solid #5f5e5e;
+            padding: 1em;
+            background-color: #bebcbc;
+        }
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Daily News" class="logo">
+    </header>
+    <main>
+        <h1>Today's News </h1>
+        <h4 align="right">Date:12/07/2024,Friday</h4>
+        <hr>
+        <div class="gallery">
+            <div class="news-item">
+                <img src="news1.jpeg" alt="News 1">
+                <h3>Breaking News 1</h3>
+                <p><b>‘No war is distant’: Eric Garcetti's blunt message to India over PM's Russia trip.</b></p>
+                <p>NEW DELHI: Strategic autonomy cannot apply in times of conflict and India and the US
+                     must uphold principles when other countries go against the rules-based order or violate
+                      sovereign borders, US ambassador Eric Garcetti said on Thursday in a swipe against Prime
+                       Minister Narendra Modi’s visit to Russia.</p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news2.jpeg" alt="News 2">
+                <h3>Breaking News 2</h3>
+                <p><b>NEET-UG Paper Leak: CBI Arrests Mastermind Rakesh Ranjan, Gets 10-Day Custody.</b></p>
+                <p>As the NEET-UG paper row case continues in the Supreme Court, the Central Bureau of 
+                    Investigation today got a big success after it arrested the mastermind behind the paper 
+                    leak. The CBI arrested Rakesh Ranjan alias Rocky this afternoon and got his 10-day custody 
+                    from a court. In connection with this case, the CBI is conducting raids at four locations 
+                    – two near Patna in Bihar and two near Kolkata in West Bengal.</p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news3.jpeg" alt="News 3">
+                <h3>Breaking News 3</h3>
+                <p><b>Supreme Court verdict on Arvind Kejriwal's plea against ED arrest tomorrow.</b></p>
+                <p>The Supreme Court will pronounce its verdict on a petition filed by Delhi Chief Minister Arvind Kejriwal challenging his arrest 
+                    by the Enforcement Directorate (ED) in a money laundering case linked to the now-scrapped excise policy.
+                    A two-judge bench of the Supreme Court, comprising Justices Sanjiv Khanna and Dipankar 
+                    Datta, had reserved the verdict on May 17.</p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news4.jpeg" alt="News 4">
+                <h3>Breaking News 4</h3>
+                <p><b>Before Rahul Dravid bonus cut, Rohit Sharma offered to deduct amount from own 
+                    chunk for underpaid support staff: Report.</b></p>
+                    <p>The outgoing Rahul Dravid once again demonstrated that he is an even better human 
+                        being than a great cricketer and coach by relinquishing a bonus of ₹2.5 crore and 
+                        settling for the same prize money as the rest of the support staff. But did you know, 
+                        before Dravid, it was India captain Rohit Sharma's big-hearted proposal which ensured 
+                        that support staff members who were underpaid, weren't left disappointed.</p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news5.png" alt="News 5">
+                <h3>Breaking News 5</h3>
+                <p><b>After PM's Russia trip, US says don't take our ties for granted.</b></p>
+                <p>Two days after Prime Minister Narendra Modi’s visit to Russia, US Ambassador Eric Garcetti 
+                    described the US-India defence partnership as the most consequential, but went on to 
+                    suggest that the relationship couldn’t be taken for granted and efforts were needed to 
+                    maintain it, as was the case in a marriage.</p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                
+            </div>
+            <div class="news-item">
+                <img src="news6.avif" alt="News 6">
+                <h3>Breaking News 6</h3>
+                <p><b>Anant Ambani, Radhika Merchant wedding live updates: Calm Down singer Rema arrives for wedding performance.</b></p>
+                <p>The much-anticipated wedding of Anant Ambani and Radhika Merchant is finally here! 
+                    The couple will exchange vows today at a spectacular ceremony held at the Jio World Convention Centre in Mumbai.
+
+                    The pre-wedding celebrations kicked off with a grand bash in Jamnagar, which saw an
+                     impressive guest list including notable figures like Bill Gates, Mark Zuckerberg, 
+                     and Ivanka Trump.</p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news7.webp" alt="News 7">
+                <h3>Breaking News 7</h3>
+                <p><b>6 Indians Missing In Nepal After Landslide Pushes Their Bus Into River.</b></p>
+                <p>New Delhi: At least six Indians were among more than 60 people believed to be missing in Nepal 
+                    after two buses were pushed into a river due to a landslide triggered by heavy rain on Friday.
+                    </p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news8.webp" alt="News 8">
+                <h3>Breaking News 8</h3>
+                <p><b>Hathras stampede: SC tells petitioner 'HC equipped to deal with case'.</b></p>
+                <p>Hathras stampede: SC tells petitioner 'HC equipped to deal with case'
+                    Hathras stampede: SC tells petitioner 'HC equipped to deal with case'
+                    © Provided by The Times of India
+                    NEW DELHI: The Supreme Court on Friday declined to entertain a public interest litigation 
+                    (PIL) requesting an investigation into the Hathras stampede, which claimed 121 lives. 
+                    </p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news9.avif" alt="News 9">
+                <h3>Breaking News 9</h3>
+                <p><b>Puja Khedkar had pressured Navi Mumbai police to release steel thief.</b></p>
+                <p>MUMBAI/ PUNE: Days after IAS probationer Puja Khedkar courted controversy for her 
+                    high-handedness and entitled behaviour, displayed in her demands of an ante-chamber in the 
+                    Pune district collectorate, where she was known to drive in her Audi fitted with a red-blue
+                     beacon and a Maharashtra government board, followed by allegations that she had allegedly 
+                     misused benefits under the physical disabilities category. 
+                     </p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+            <div class="news-item">
+                <img src="news10.webp" alt="News 10">
+                <h3>Breaking News 10</h3>
+                <p><b>JKBOSE 11th Results 2024 Live: JK Class 11 marks awaited at jkbose.nic.in, check updates here.</b></p>
+                <p>JKBOSE 11th Results 2024 Live: The JK Class 11 marks will be available to candidates on the official 
+                    website of JKBOSE at jkbose.nic.in. The details can also be checked by candidates on the official website of JK results at jkresults.nic.in.
+
+                    JKBOSE 11th Results 2024 Live: Jammu and Kashmir Class 11 results date and time have not been released by the Board yet.</p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact us: abc@gmail.com | Phone: (123) 456-7890</p>
+    </footer>
+</body>
+</html>
